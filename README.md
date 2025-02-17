@@ -1,10 +1,11 @@
-# Log Generator
+# Logador
 
 Apenas um gerador de logs para um futuro projeto de análise de logs.
 
 ## Descrição
 
 Este projeto consiste em um script que gera diversos logs simulando eventos de um sistema e os publica em uma fila do RabbitMQ. Os logs serão consumidos posteriormente por outra aplicação, que será desenvolvida em Go, para análise e processamento.
+Usei como base o tutorial [Getting Started with RabbitMQ and Python: A Practical Guide](https://dev.to/felipepaz/getting-started-with-rabbitmq-and-python-a-practical-guide-57fi) para criar a conexão com o RabbitMQ.
 
 ## Objetivo
 
